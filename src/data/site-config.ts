@@ -1,5 +1,4 @@
 export type Image = {
-    src: string;
     alt?: string;
     caption?: string;
 };
@@ -49,11 +48,11 @@ const siteConfig: SiteConfig = {
     headerNavLinks: [
         {
             text: 'Home',
-            href: '/'
+            href: '/me'
         },
         {
             text: 'Contact',
-            href: '/contact'
+            href: '/me/contact'
         }
         // {
         //     text: 'Projects',
@@ -75,7 +74,7 @@ const siteConfig: SiteConfig = {
         // },
         {
             text: 'Contact',
-            href: '/contact'
+            href: '/me/contact'
         }
         // {
         //     text: 'Terms',
@@ -100,13 +99,13 @@ const siteConfig: SiteConfig = {
         title: 'Hi There & Welcome to My Corner of the Web!',
         text: "With over a decade of experience in tech, I've had the opportunity to try my hand at a variety of roles. Right now, I'm having a blast as a Full Stack Developer, with a focus on hybrid mobile development. My diverse background has made me a pro at handling all aspects of a project, from understanding what the client needs to bringing the solution to life.",
         image: {
-            src: '/hero.jpeg',
-            alt: 'Author sitting at a desk in front of a computer'
+            alt: 'Author sitting at a desk in front of a computer',
+            caption: ''
         },
         actions: [
             {
                 text: "Let's Talk",
-                href: '/contact'
+                href: '/me/contact'
             }
         ]
     },
