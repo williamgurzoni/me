@@ -38,12 +38,13 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'William Gurzoni',
+    subtitle: 'A curious mind and passionate developer',
+    description:
+        'Personal blog and portfolio of William Gurzoni, a software developer based in New Zealand. He writes about software development, AI, and other tech topics.',
     image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        src: '/dante-preview.jpg', // Image used when sharing on social media
+        alt: 'Author sitting at a desk with a laptop'
     },
     headerNavLinks: [
         {
@@ -51,67 +52,67 @@ const siteConfig: SiteConfig = {
             href: '/'
         },
         {
-            text: 'Projects',
-            href: '/projects'
-        },
-        {
-            text: 'Blog',
-            href: '/blog'
-        },
-        {
-            text: 'Tags',
-            href: '/tags'
+            text: 'Contact',
+            href: '/contact'
         }
+        // {
+        //     text: 'Projects',
+        //     href: '/projects'
+        // },
+        // {
+        //     text: 'Blog',
+        //     href: '/blog'
+        // },
+        // {
+        //     text: 'Tags',
+        //     href: '/tags'
+        // }
     ],
     footerNavLinks: [
-        {
-            text: 'About',
-            href: '/about'
-        },
+        // {
+        //     text: 'About',
+        //     href: '/about'
+        // },
         {
             text: 'Contact',
             href: '/contact'
-        },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
         }
+        // {
+        //     text: 'Terms',
+        //     href: '/terms'
+        // }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'LinkedIn',
+            href: 'https://www.linkedin.com/in/william-gurzoni/'
         },
         {
             text: 'Instagram',
-            href: 'https://instagram.com/'
+            href: 'https://www.instagram.com/william.gurzoni/'
         },
         {
             text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            href: 'https://x.com/williamgurzoni'
         }
     ],
     hero: {
         title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        text: "With over a decade of experience in tech, I've had the opportunity to try my hand at a variety of roles. Right now, I'm having a blast as a Full Stack Developer, with a focus on hybrid mobile development. My diverse background has made me a pro at handling all aspects of a project, from understanding what the client needs to bringing the solution to life.",
         image: {
             src: '/hero.jpeg',
-            alt: 'A person sitting at a desk in front of a computer'
+            alt: 'Author sitting at a desk in front of a computer'
         },
         actions: [
             {
-                text: 'Get in Touch',
+                text: "Let's Talk",
                 href: '/contact'
             }
         ]
     },
     subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
+        title: 'Subscribe to my Newsletter',
+        text: 'All the latest posts directly in your inbox.',
         formUrl: '#'
     },
     postsPerPage: 8,
