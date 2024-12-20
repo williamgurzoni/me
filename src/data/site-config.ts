@@ -1,6 +1,7 @@
 export type Image = {
     alt?: string;
     caption?: string;
+    src?: string;
 };
 
 export type Link = {
@@ -42,17 +43,17 @@ const siteConfig: SiteConfig = {
     description:
         'Personal blog and portfolio of William Gurzoni, a software developer based in New Zealand. He writes about software development, AI, and other tech topics.',
     image: {
-        src: '/dante-preview.jpg', // Image used when sharing on social media
-        alt: 'Author sitting at a desk with a laptop'
+        src: '/hero.jpg', // Image used when sharing on social media
+        alt: 'Author sitting at a desk with a laptop',
     },
     headerNavLinks: [
         {
             text: 'Home',
-            href: '/me'
+            href: '/'
         },
         {
             text: 'Contact',
-            href: '/me/contact'
+            href: '/contact'
         }
         // {
         //     text: 'Projects',
@@ -74,7 +75,7 @@ const siteConfig: SiteConfig = {
         // },
         {
             text: 'Contact',
-            href: '/me/contact'
+            href: '/contact'
         }
         // {
         //     text: 'Terms',
@@ -105,7 +106,7 @@ const siteConfig: SiteConfig = {
         actions: [
             {
                 text: "Let's Talk",
-                href: '/me/contact'
+                href: '/contact'
             }
         ]
     },
